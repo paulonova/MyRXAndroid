@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     RxExampleChapt3 rxExampleChapt3;
     RxObservableChapt6 rxObservableChapt6;
     RxObservableChapt7 rxObservableChapt7;
+    RxObservableChapt7a rxObservableChapt7a;
     User user;
 
     @Override
@@ -51,7 +52,16 @@ public class MainActivity extends AppCompatActivity {
 //        rxObservableChapt6.convertColdInHotObservable5();
 //        rxObservableChapt6.convertColdInHotObservable6();
 
-        rxObservableChapt7 = new RxObservableChapt7();
+        rxObservableChapt7a = new RxObservableChapt7a();
+
+//        rxObservableChapt7a.usingObserver(); //Never exit..
+//        rxObservableChapt7a.usingObserverDisposable();
+//        rxObservableChapt7a.usingObserverOnError();
+//        rxObservableChapt7a.usingObserverOnComplete();
+//        rxObservableChapt7a.usingObserverExample();
+        rxObservableChapt7a.usingObserverExampleShort();
+
+
 
 
 
